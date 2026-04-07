@@ -1,7 +1,7 @@
 # Pipeline Anomaly Detector
 
-[![Build](https://img.shields.io/github/actions/workflow/status/your-org/pipeline-anomaly-detector/ci.yml?branch=main&label=build)](https://github.com/your-org/pipeline-anomaly-detector/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/your-org/pipeline-anomaly-detector?label=coverage)](https://codecov.io/gh/your-org/pipeline-anomaly-detector)
+[![Build](https://img.shields.io/github/actions/workflow/status/VenusDataAI/pipeline-anomaly-detector/ci.yml?branch=main&label=build)](https://github.com/VenusDataAI/pipeline-anomaly-detector/actions)
+[![Coverage](https://img.shields.io/codecov/c/github/VenusDataAI/pipeline-anomaly-detector?label=coverage)](https://codecov.io/gh/VenusDataAI/pipeline-anomaly-detector)
 [![PyPI](https://img.shields.io/pypi/v/pipeline-anomaly-detector?label=PyPI)](https://pypi.org/project/pipeline-anomaly-detector/)
 [![Python](https://img.shields.io/pypi/pyversions/pipeline-anomaly-detector)](https://pypi.org/project/pipeline-anomaly-detector/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -109,7 +109,7 @@ See [docs/feature_reference.md](docs/feature_reference.md) for the full referenc
 
 ```bash
 # Clone and install in editable mode with dev extras
-git clone https://github.com/your-org/pipeline-anomaly-detector.git
+git clone https://github.com/VenusDataAI/pipeline-anomaly-detector.git
 cd pipeline-anomaly-detector
 pip install -e ".[dev]"
 

@@ -39,7 +39,7 @@ cd pipeline-anomaly-detector
 3. Add the upstream remote so you can pull future changes:
 
 ```bash
-git remote add upstream https://github.com/your-org/pipeline-anomaly-detector.git
+git remote add upstream https://github.com/VenusDataAI/pipeline-anomaly-detector.git
 ```
 
 ---
@@ -244,7 +244,7 @@ A maintainer will review your PR, request changes if needed, and merge once appr
 
 ## Reporting Issues
 
-Please open an issue at [github.com/your-org/pipeline-anomaly-detector/issues](https://github.com/your-org/pipeline-anomaly-detector/issues) and include:
+Please open an issue at [github.com/VenusDataAI/pipeline-anomaly-detector/issues](https://github.com/VenusDataAI/pipeline-anomaly-detector/issues) and include:
 
 - Python version (`python --version`)
 - Package version (`python -c "import pipeline_anomaly_detector; print(pipeline_anomaly_detector.__version__)"`)

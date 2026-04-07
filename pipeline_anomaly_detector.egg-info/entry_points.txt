@@ -1,2 +1,0 @@
-[console_scripts]
-pad = pipeline_anomaly_detector.cli.main:app

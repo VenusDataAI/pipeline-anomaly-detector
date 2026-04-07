@@ -53,9 +53,9 @@ airflow = [
 pad = "pipeline_anomaly_detector.cli.main:app"
 
 [project.urls]
-Homepage = "https://github.com/your-org/pipeline-anomaly-detector"
-Repository = "https://github.com/your-org/pipeline-anomaly-detector"
-"Bug Tracker" = "https://github.com/your-org/pipeline-anomaly-detector/issues"
+Homepage = "https://github.com/VenusDataAI/pipeline-anomaly-detector"
+Repository = "https://github.com/VenusDataAI/pipeline-anomaly-detector"
+"Bug Tracker" = "https://github.com/VenusDataAI/pipeline-anomaly-detector/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

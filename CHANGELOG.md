@@ -59,4 +59,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/detector_comparison.md`: Pros/cons/when-to-use for each detector.
 - `notebooks/exploration.ipynb`: Interactive exploration notebook with matplotlib timeline plot.
 
-[0.1.0]: https://github.com/your-org/pipeline-anomaly-detector/releases/tag/v0.1.0
+[0.1.0]: https://github.com/VenusDataAI/pipeline-anomaly-detector/releases/tag/v0.1.0
