@@ -1,12 +1,12 @@
 # Pipeline Anomaly Detector
 
-[![Build](https://img.shields.io/github/actions/workflow/status/VenusDataAI/pipeline-anomaly-detector/ci.yml?branch=main&label=build)](https://github.com/VenusDataAI/pipeline-anomaly-detector/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/VenusDataAI/pipeline-anomaly-detector?label=coverage)](https://codecov.io/gh/VenusDataAI/pipeline-anomaly-detector)
+[![Build](https://img.shields.io/github/actions/workflow/status/your-org/pipeline-anomaly-detector/ci.yml?branch=main&label=build)](https://github.com/your-org/pipeline-anomaly-detector/actions)
+[![Coverage](https://img.shields.io/codecov/c/github/your-org/pipeline-anomaly-detector?label=coverage)](https://codecov.io/gh/your-org/pipeline-anomaly-detector)
 [![PyPI](https://img.shields.io/pypi/v/pipeline-anomaly-detector?label=PyPI)](https://pypi.org/project/pipeline-anomaly-detector/)
 [![Python](https://img.shields.io/pypi/pyversions/pipeline-anomaly-detector)](https://pypi.org/project/pipeline-anomaly-detector/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**Pipeline Anomaly Detector** is a production-ready ML toolkit for detecting anomalies in data pipeline runs. It collects run metadata from dbt, Airflow, or any custom source, extracts 11 statistical features per run, and scores each run with a choice of Z-Score, Isolation Forest, or Ensemble detectors — sending alerts to Slack when something looks wrong.
+**Pipeline Anomaly Detector** is a production-ready ML toolkit for detecting anomalies in data pipeline runs. It collects run metadata from dbt, Airflow, or any custom source, extracts 11 statistical features per run, and scores each run with a choice of Z-Score, Isolation Forest, or Ensemble detectors, sending alerts to Slack when something looks wrong.
 
 ---
 
@@ -67,9 +67,9 @@ graph TD
 
 | Detector | Algorithm | Interpretability | Multi-variate | When to use |
 |---|---|---|---|---|
-| `zscore` | Rolling z-score | High — per-feature z | No | Simple baselines, limited data |
-| `isolation_forest` | sklearn IsolationForest | Medium — permutation importance | Yes | Complex multi-feature anomalies |
-| `ensemble` | Weighted average | Medium — union of features | Yes | **Production default** |
+| `zscore` | Rolling z-score | High (per-feature z) | No | Simple baselines, limited data |
+| `isolation_forest` | sklearn IsolationForest | Medium (permutation importance) | Yes | Complex multi-feature anomalies |
+| `ensemble` | Weighted average | Medium (union of features) | Yes | **Production default** |
 
 See [docs/detector_comparison.md](docs/detector_comparison.md) for full details.
 
@@ -109,7 +109,7 @@ See [docs/feature_reference.md](docs/feature_reference.md) for the full referenc
 
 ```bash
 # Clone and install in editable mode with dev extras
-git clone https://github.com/VenusDataAI/pipeline-anomaly-detector.git
+git clone https://github.com/your-org/pipeline-anomaly-detector.git
 cd pipeline-anomaly-detector
 pip install -e ".[dev]"
 
@@ -124,4 +124,4 @@ jupyter notebook notebooks/exploration.ipynb
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT License; see [LICENSE](LICENSE).
